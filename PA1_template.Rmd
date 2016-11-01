@@ -227,3 +227,5 @@ plot(levels(as.factor(activity2$interval)), StepsPerInterval_weekend, type = "l"
     xlab = "5 Min interval (hhmm)", ylab = "Average number of steps", main = "Weekend - Average number of steps per interval", 
     ylim = range(0:250), xlim = range(0:2400))
 ```
+
+**A small difference is observed only.**
